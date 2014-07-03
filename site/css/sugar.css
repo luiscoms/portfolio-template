@@ -1,0 +1,42 @@
+
+a {text-decoration: none;color: #2fb3db;}
+a:hover {color: #2fb3db;}
+
+.sugar-container {background-color: #2fb3db; color: #eee;}
+.sugar-container a, .sugar-container h1, .sugar-container h2, .sugar-container h3, .sugar-container h4, .sugar-container h5, .sugar-container h6 {color: #fff;}
+
+.sugar-container .icon-container div {background: #ff6760; color: #fff; }
+
+.sugar-container .icon-bg .glyphicons {color: #1c1c1c; }
+
+.sugar-container .rslides_tabs .rslides_here a {background-color: #fff;}
+
+.sugar-container .btn-nav li > a, .sugar-container .btn {background-color: #fff; color: #333;}
+.sugar-container .btn-nav li > a:hover, .sugar-container a.btn:hover {background: #ddd; color: #333;}
+
+.sugar-container .btn-nav li.active > a {color: #fff !important;}
+
+.sugar-container .btn.transparent {color: #fff;}
+
+.sugar-container .btn.transparent:hover {color: #333; }
+
+/* buttons */
+.btn-nav li > a, .btn {
+    background-color: #2fb3db;
+}
+
+
+/* header */
+#header.scrolled { background: #2fb3db; }
+
+.sugar-container .position { background: #e55c56; }
+.sugar-container .position h4 {color: #333;}
+
+.sugar-container .position .more .btn {background: #fff;}
+.sugar-container .position .more .btn:hover {background: #ddd;}
+
+
+/* Scrolltop button */
+#scrolltop {
+    background: #2fb3db;
+}
