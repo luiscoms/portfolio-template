@@ -196,21 +196,21 @@ width: 20px;
 
 /* parallax elements */
 .parallax { background-position: 50% 500%; background-repeat: no-repeat; background-attachment: fixed; }
-#about {background-image: url(./images/bg-user.png); }
-#personalinfo {background-image: url(./images/bg-nameplate.png); }
-#education {background-image: url(./images/bg-certificate.png); }
-#employment {background-image: url(./images/bg-share_alt.png); }
-#services {background-image: url(./images/bg-ok_2.png); }
-#skills {background-image: url(./images/bg-cogwheels.png); }
-#bonus {background-image: url(./images/bg-gift.png); }
-#portfolio {background-image: url(./images/bg-briefcase.png); }
-#clients {background-image: url(./images/bg-group.png); }
-#testimonials {background-image: url(./images/bg-comments.png); }
-#services2 {background-image: url(./images/bg-dislikes.png); }
-#social {background-image: url(./images/bg-heart.png); }
-#tweetr {background-image: url(./images/bg-bullhorn.png); }
-#contact {background-image: url(./images/bg-envelope.png); }
-#download {background-image: url(./images/bg-paperclip.png); }
+#about {background-image: url(../images/bg-user.png); }
+#personalinfo {background-image: url(../images/bg-nameplate.png); }
+#education {background-image: url(../images/bg-certificate.png); }
+#employment {background-image: url(../images/bg-share_alt.png); }
+#services {background-image: url(../images/bg-ok_2.png); }
+#skills {background-image: url(../images/bg-cogwheels.png); }
+#bonus {background-image: url(../images/bg-gift.png); }
+#portfolio {background-image: url(../images/bg-briefcase.png); }
+#clients {background-image: url(../images/bg-group.png); }
+#testimonials {background-image: url(../images/bg-comments.png); }
+#services2 {background-image: url(../images/bg-dislikes.png); }
+#social {background-image: url(../images/bg-heart.png); }
+#tweetr {background-image: url(../images/bg-bullhorn.png); }
+#contact {background-image: url(../images/bg-envelope.png); }
+#download {background-image: url(../images/bg-paperclip.png); }
 
 /* home block */
 #home .wrap .row {padding-top: 60px; padding-bottom: 30px !important;}
