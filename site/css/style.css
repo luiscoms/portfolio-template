@@ -43,7 +43,7 @@ dl, dl.row {margin-bottom: 15px !important; overflow: hidden;}
 dl dt {font-weight: 600;}
 dl dd {margin-bottom: 5px !important;}
 
-. {padding: 10px; background: #fff; overflow: hidden;}
+/*. {padding: 10px; background: #fff; overflow: hidden;}*/
 
 .primarycolor {color: #ff6760 !important;}
 .coffee-container, .cream-container, .sugar-container {position: relative;}
