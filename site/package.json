@@ -1,0 +1,27 @@
+{
+  "name": "luiscoms-homepage",
+  "version": "0.0.0",
+  "description": "LuisComS' VCARD",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -a localhost -p 7777"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luiscoms/portfolio-template.git"
+  },
+  "keywords": [
+    "VCARD",
+    "portfolio"
+  ],
+  "author": "LuisComS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luiscoms/portfolio-template/issues"
+  },
+  "homepage": "https://github.com/luiscoms/portfolio-template",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "http-server": "^0.6.1"
+  }
+}
