@@ -43,12 +43,14 @@
 
 <body class="fullwidth boxed" data-device="" data-maxcols="">
     <script>
+    if (location.hostname.indexOf('localhost') == -1) {
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-22429511-1', 'auto');
       ga('send', 'pageview');
+    }
     </script>
     <div id="top"></div>
 
@@ -66,6 +68,7 @@
             <li><a href="#home" ><span class="glyphicons home"><i></i></span>Home</a></li>
             <li><a href="#about" ><span class="glyphicons user"><i></i></span>About Me</a></li>
             <li><a href="#personalinfo"><span class="glyphicons nameplate"><i></i></span>Personal Information</a></li>
+            <li><a href="#education"><span class="glyphicons certificate"><i></i></span>Education</a></li>
             <li><a href="#social"><span class="glyphicons heart"><i></i></span>Social Media</a></li>
         </ul>
     </div>
@@ -91,7 +94,7 @@
                 <div class="col dimfull text-center">
                     <h2>About Me</h2>
 
-                    <p class="intro big">Developer at Absoluta.net</p>
+                    <p class="intro big">I am an experienced professional on the software development market, mainly working in analysis and development of Web applications.</p>
                 </div><!-- /.col -->
             </div><!-- /.row  -->
         </div><!-- /.container -->
@@ -107,6 +110,9 @@
                         <dt class="col dim1half text-right padright">Date of birth</dt>
                         <dd class="col dim1half text-left padleft">June 17rd, 1986</dd>
 
+                        <dt class="col dim1half text-right padright">Address</dt>
+                        <dd class="col dim1half text-left padleft">Porto Alegre - RS<br/>Brazil</dd>
+
                         <dt class="col dim1half text-right padright">Email</dt>
                         <dd class="col dim1half text-left padleft">dev@luiscoms.com.br</dd>
 
@@ -118,7 +124,45 @@
         </div><!-- /.container -->
     </div><!-- /#personalinfo -->
 
-    <div id="social" class="coffee-container parallax" data-speed="24" data-offsetY="-150">
+    <div id="education" class="coffee-container parallax" data-speed="4" data-offsetY="-150">
+        <div class="icon-container"><div><span class="glyphicons certificate"><i></i></span></div></div>
+        <div class="container wrap">
+            <div class="row">
+                <div class="col dimfull text-center">
+                    <h2>Education</h2>
+                    <div class="position2 row">
+                        <div class="col dim1third text-right padright">
+                            <div class="date-detail">from 2011 to present day</div>
+                            <h3>SENAC</h3>
+                            <p><strong>Porto Alegre - RS - Brazil</strong></p>
+                        </div>
+                        <div class="col dim2thirds text-left padleft post-content">
+                            <h4>System Analysis and Development</h4>
+                            <div class="more">
+                                <a class="btn" href="http://portal.senacrs.com.br/site/index.asp" target="_blank">University website</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position2 row last">
+                        <div class="col dim1third text-right padright">
+                            <div class="date-detail">from 2011 to present day</div>
+                            <h3>Alcides Maya Technology</h3>
+                            <p><strong>Porto Alegre - RS - Brazil</strong></p>
+                        </div>
+                        <div class="col dim2thirds text-left padleft post-content">
+                            <h4>Computer Technician</h4>
+                            <div class="more">
+                                <a class="btn" href="http://www.alcidesmaya.com.br/" target="_blank">Institution website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.col -->
+            </div><!-- /.row  -->
+        </div><!-- /.container -->
+    </div><!-- /#education -->
+
+    <div id="social" class="cream-container parallax" data-speed="24" data-offsetY="-150">
         <div class="icon-container"><div><span class="glyphicons heart"><i></i></span></div></div>
         <div class="container wrap">
             <div class="row">
