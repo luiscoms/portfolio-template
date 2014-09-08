@@ -1,4 +1,8 @@
-
+/**
+ * #ff6760 --> #2fb3db
+ * #c95752 --> #23a6ce
+ * #e55c56 --> #14bce1
+ */
 a {text-decoration: none;color: #2fb3db;}
 a:hover {color: #2fb3db;}
 
@@ -33,7 +37,7 @@ a:hover {color: #2fb3db;}
 /* header */
 #header.scrolled { background: #2fb3db; }
 
-.sugar-container .position { background: #e55c56; }
+.sugar-container .position { background: #14bce1; }
 .sugar-container .position h4 {color: #333;}
 
 /* positions */
