@@ -1,14 +1,28 @@
 #!/bin/sh
 
-BIN_DIR=$(readlink -f $(dirname $0));
+ZIPNAME="porfolio"
+#BIN_DIR=$(readlink -f $(dirname $0));
+BIN_DIR=$(pwd)/$(dirname $0);
+DIRFROM="~/tmp/";
+DIRTO="~/www/";
 
-DIRFROM=$BIN_DIR/../site/;
-DIRTO=~/www/;
+echo "BIN_DIR: "$BIN_DIR
+cd $BIN_DIR/../site/
+grunt
 
-OPTS='-ruv --exclude-from '${BIN_DIR}'/ignore-install'
-#=*.swp --exclude=.git* --exclude=Makefile --exclude=.editorconfig --exclude=composer.* --exclude=package.json'
+cd build
 
+# zip filename -r files
+zip ../$ZIPNAME -r .
 
+cd ..
 
+ssh luiscoms@luiscoms.com.br "rm -rf "$DIRFROM"; mkdir -p "$DIRFROM
 
-rsync $OPTS $DIRFROM $DIRTO
+# scp -r build luiscoms@luiscoms.com.br:$DIRFROM
+scp $ZIPNAME.zip luiscoms@luiscoms.com.br:$DIRFROM
+
+ssh luiscoms@luiscoms.com.br "unzip -o "$DIRFROM/$ZIPNAME.zip" -d "$DIRTO
+# ssh luiscoms@luiscoms.com.br "rsync -ruv "$DIRFROM" "$DIRTO
+
+rm $ZIPNAME.zip
