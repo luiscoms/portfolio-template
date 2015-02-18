@@ -4,7 +4,8 @@
   "description": "LuisComS' VCARD",
   "main": "index.html",
   "scripts": {
-    "start": "http-server -a localhost -p 7777"
+    "prestart": "grunt",
+    "start": "http-server build -a localhost -p 7777"
   },
   "repository": {
     "type": "git",
