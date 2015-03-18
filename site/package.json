@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "prestart": "grunt",
-    "start": "http-server build -a localhost -p 7777"
+    "start": "http-server build -p 7777 #-a 127.0.0.1 "
   },
   "repository": {
     "type": "git",
